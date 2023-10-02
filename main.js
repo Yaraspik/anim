@@ -1,0 +1,2 @@
+(()=>{"use strict";const t=document.querySelector(".widget"),s=new class{constructor(t){this.container=t,this.button=this.container.querySelector(".widget__btn"),this.text=this.container.querySelector(".widget__text-container")}subscribeOnEvents(){this.button.addEventListener("click",(()=>this.run()))}run(){if(this.text.classList.contains("show"))return this.text.classList.add("hide"),void this.text.classList.remove("show");this.text.classList.add("show"),this.text.classList.remove("hide")}}(t);s.subscribeOnEvents()})();
+//# sourceMappingURL=main.js.map
